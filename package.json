@@ -1,0 +1,31 @@
+{
+  "name": "agent",
+  "version": "1.0.0",
+  "description": "An agent that helps students keep track of college classes, events, deadlines, and notices. ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "dev": "node --env-file=.env agent.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudhanshuraj13/college-Assistant"
+  },
+  "keywords": [
+    "agent",
+    "student",
+    "assistant",
+    "college",
+    "app",
+    "class",
+    "schedule",
+    "event",
+    "tracker"
+  ],
+  "author": "Sudhanshu Raj",
+  "license": "ISC",
+  "dependencies": {
+    "groq-sdk": "^0.27.0"
+  }
+}
