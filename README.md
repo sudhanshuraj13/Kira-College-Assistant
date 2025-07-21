@@ -1,4 +1,4 @@
-# College Assistant
+#Kira College Assistant
 
 Meet **Kira**—your smart, AI-powered college assistant designed to revolutionize how students organize their academic lives! Powered by the cutting-edge LLM model, **Llama-3.3-70b-versatile**, Kira acts as your personal companion, proactively reminding you about upcoming classes, assignments, exams, and campus events.
 
