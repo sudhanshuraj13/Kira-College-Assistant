@@ -1,9 +1,14 @@
+import readline from 'node:readline/promises';
 import Groq from "groq-sdk";
+
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 const currentDatetime = new Date().toUTCString();
 
 
 async function callAgent() {
+  const r = readline.createInterface({input: process.stdin, output: process.stdout});
+
+
   const message = [
     {
       role: "system",
@@ -12,12 +17,21 @@ async function callAgent() {
     },
   ];
 
-  message.push({
+  
+
+  while(true){
+    const question = await r.question("User: ");
+
+    if(question === 'bye'){
+      break;
+    }
+
+    message.push({
     role: "user",
-    content: "Give details about upcoming class.",
+    content: question,
   });
 
-  while (true) {
+    while (true) {
     const completion = await groq.chat.completions.create({
       messages: message,
       model: "llama-3.3-70b-versatile",
@@ -100,14 +114,14 @@ async function callAgent() {
     //   console.log(JSON.stringify(completion2.choices[0], null, 2));
     }
 
-    console.log("===============");
-    console.log("Messages:", message);
+  
+  }
   }
 }
 callAgent();
 
 function classDetails(from, to) {
-  console.log(`Fetching class details`);
+  // console.log(`Fetching class details`);
   return "Class: DSA at 10:00 AM";
 }
 
