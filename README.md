@@ -1,10 +1,10 @@
 # College Assistant
 
-Meet College Assistant—a smart, AI-powered agent designed to revolutionize how students organize their academic lives! Powered by the cutting-edge LLM model, **Llama-3.3-70b-versatile**, this agent acts as your personal college companion, proactively reminding you about upcoming classes, assignments, exams, and campus events.
+Meet **Kira**—your smart, AI-powered college assistant designed to revolutionize how students organize their academic lives! Powered by the cutting-edge LLM model, **Llama-3.3-70b-versatile**, Kira acts as your personal companion, proactively reminding you about upcoming classes, assignments, exams, and campus events.
 
-Harnessing the capabilities of advanced natural language processing, College Assistant delivers friendly, concise, and context-aware responses tailored to your schedule. Whether you're juggling deadlines or searching for event details, this agent is here to keep you on track and stress-free.
+Harnessing the capabilities of advanced natural language processing, Kira delivers friendly, concise, and context-aware responses tailored to your schedule. Whether you're juggling deadlines or searching for event details, Kira is here to keep you on track and stress-free.
 
-Built for the future, College Assistant is not just a static tool—it's a dynamic project with plans to evolve into a full-featured website, integrating real-time data from college portals and emails. Experience the next generation of student productivity and organization!
+Built for the future, Kira is not just a static tool—it's a dynamic project with plans to evolve into a full-featured website, integrating real-time data from college portals and emails. Experience the next generation of student productivity and organization!
 
 ## Features
 - Reminds students of upcoming assignments, exams, events, and deadlines
