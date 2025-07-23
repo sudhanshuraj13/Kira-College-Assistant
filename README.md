@@ -76,3 +76,4 @@ Currently, College Assistant provides answers using local sample data. In the fu
 - Add smart notifications, personalized dashboards, and seamless integrations with popular college platforms.
 
 Stay tuned—College Assistant is just getting started! The goal is to create an intelligent, proactive companion for every student, making college life easier and more organized than ever before.
+
